@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <div class="card">
+        <div class="header-icon">
+            <img src="sun.png" alt="Weather Icon">
+        </div>
+        
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button type="button"></button>
+        </div>
+        
+        <div class="weather">
+            <div class="weather-icon">🌤️</div>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <p class="description">Clear Sky</p>
+            
+            <div class="details">
+                <div class="col">
+                    <div class="humidity"></div>
+                    <div>
+                        <h3>60%</h3>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wind"></div>
+                    <div>
+                        <h3>15 km/h</h3>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="error">
+            <div class="error-icon"></div>
+            <h2>City not found</h2>
+            <p>Please enter a valid city name</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
